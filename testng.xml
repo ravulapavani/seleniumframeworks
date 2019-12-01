@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="pavani">
+  <test thread-count="5" name="Report1">
+    <classes>
+      <class name="nov23.Demo2"/>
+      </classes>
+  </test> <!-- Report1 -->
+<test thread-count="5"  name="Report2">
+  <classes>
+  <class name="nov23.Demo3"/>
+     </classes>
+  </test> <!-- Report2 -->
+</suite> <!-- pavani -->

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7171" started-at="2019-11-27T12:01:34Z" finished-at="2019-11-27T12:01:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7171" started-at="2019-11-27T12:01:34Z" finished-at="2019-11-27T12:01:41Z">
+      <class name="nov25.Generatereports">
+        <test-method status="PASS" signature="setup()[pri:0, instance:nov25.Generatereports@6767c1fc]" name="setup" is-config="true" duration-ms="799" started-at="2019-11-27T17:31:34Z" finished-at="2019-11-27T17:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:nov25.Generatereports@6767c1fc]" name="TC1" duration-ms="19" started-at="2019-11-27T17:31:35Z" finished-at="2019-11-27T17:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="closereports()[pri:0, instance:nov25.Generatereports@6767c1fc]" name="closereports" is-config="true" duration-ms="855" started-at="2019-11-27T17:31:35Z" finished-at="2019-11-27T17:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closereports -->
+        <test-method status="PASS" signature="TC2()[pri:0, instance:nov25.Generatereports@6767c1fc]" name="TC2" duration-ms="5022" started-at="2019-11-27T17:31:35Z" finished-at="2019-11-27T17:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="closereports()[pri:0, instance:nov25.Generatereports@6767c1fc]" name="closereports" is-config="true" duration-ms="233" started-at="2019-11-27T17:31:40Z" finished-at="2019-11-27T17:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closereports -->
+        <test-method status="SKIP" signature="TC3()[pri:0, instance:nov25.Generatereports@6767c1fc]" name="TC3" duration-ms="7" started-at="2019-11-27T17:31:41Z" finished-at="2019-11-27T17:31:41Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping testcase]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping testcase
+	at nov25.Generatereports.TC3(Generatereports.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="closereports()[pri:0, instance:nov25.Generatereports@6767c1fc]" name="closereports" is-config="true" duration-ms="177" started-at="2019-11-27T17:31:41Z" finished-at="2019-11-27T17:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closereports -->
+      </class> <!-- nov25.Generatereports -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

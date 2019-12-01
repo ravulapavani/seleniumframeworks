@@ -1,0 +1,5 @@
+#Locators for login
+Url=http://www.newtours.demoaut.com
+objuser=//*[@name='userName']
+objpass=//*[@name='password']
+objsignin=//*[@name='login']

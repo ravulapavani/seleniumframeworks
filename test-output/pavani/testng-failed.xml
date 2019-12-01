@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [pavani]">
+  <test name="Report1(failed)">
+    <classes>
+      <class name="nov23.Demo3">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- nov23.Demo3 -->
+      <class name="nov23.Demo2">
+        <methods>
+          <include name="hotelsLink"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="supportLink"/>
+        </methods>
+      </class> <!-- nov23.Demo2 -->
+    </classes>
+  </test> <!-- Report1(failed) -->
+  <test name="Report2(failed)">
+    <classes>
+      <class name="nov23.Demo3">
+        <methods>
+          <include name="signOnLink"/>
+          <include name="registerLink"/>
+          <include name="homeLink"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- nov23.Demo3 -->
+      <class name="nov23.Demo2">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- nov23.Demo2 -->
+    </classes>
+  </test> <!-- Report2(failed) -->
+</suite> <!-- Failed suite [pavani] -->
